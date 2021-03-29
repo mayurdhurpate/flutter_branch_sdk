@@ -18,6 +18,6 @@ public class FlutterBranchSdkInit {
             Branch.enableLogging();
         }
         // Branch object initialization
-        Branch.getAutoInstance(context);
+        Branch.getAutoInstance(context).enableFacebookAppLinkCheck();
     }
 }
